@@ -97,6 +97,7 @@ body {
 
 .quotes {
   background-color: #E5E7EB;
+  padding: 75px 150px;
 }
 
 #quotation {
@@ -104,11 +105,17 @@ body {
   font-size: 36px;
   font-weight: 200;
   font-style: italic;
+  width: 900px;
+  text-align: center;
+  padding-left: 350px;
 }
 
 #quoter {
   color: #1F2937;
   font-size: 24px;
+  padding-top: 30px;
+  text-align: right;
+  padding-right: 300px;
 }
 
 .signup {
