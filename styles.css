@@ -72,7 +72,7 @@ body {
   color: #1F2937;
   font-size: 36px;
   font-weight: bolder;
-  padding: 20px 0;
+  padding: 5px 0;
 }
 
 .info-container {
@@ -88,10 +88,9 @@ body {
 }
 
 .info-item-image {
-  border: solid 4px #808080;
   height: 100px;
   width: 100px;
-  border-radius: 5px;
+  border-radius: 100%;
   object-fit: cover;
 }
 
@@ -118,16 +117,35 @@ body {
   padding-right: 300px;
 }
 
+.signup-div {
+  padding: 50px 300px;
+}
+
 .signup {
   background-color: #3882F6;
   border-radius: 5px;
   color: white;
+  padding: 50px;
 }
 
 .signup-main {
   font-size: 24px;
 }
 
+#signup-button-end {
+  background-color: #3882F6;
+  color: white;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: white;
+  padding: 5px 20px;
+  display: block;
+  position: relative;
+  left: 900px;
+  bottom: 50px;
+}
+
 .footer {
   color: white;
+  text-align: center;
 }
